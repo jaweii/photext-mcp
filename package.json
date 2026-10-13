@@ -1,0 +1,44 @@
+{
+  "name": "photext-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for PhoText (https://photext.ai): AI tool to edit, replace, remove and translate text inside images while keeping the original font.",
+  "type": "module",
+  "bin": {
+    "photext-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "test": "node test.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "photext",
+    "edit text in image",
+    "image text editor",
+    "font finder",
+    "remove text from image",
+    "image translator"
+  ],
+  "homepage": "https://photext.ai",
+  "author": "PhoText <admin@photext.shop>",
+  "license": "MIT",
+  "mcpName": "io.github.jaweii/photext-mcp",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaweii/photext-mcp.git"
+  }
+}
