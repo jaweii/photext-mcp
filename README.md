@@ -15,8 +15,9 @@ It needs no API key or account. The tools return the right PhoText tool link plu
 | `photext_list_tools` | List every PhoText tool |
 
 ## Install
+Run it straight from GitHub (needs Node 18+ and npm 10+):
 ```json
-{ "mcpServers": { "photext": { "command": "npx", "args": ["-y", "photext-mcp"] } } }
+{ "mcpServers": { "photext": { "command": "npx", "args": ["-y", "github:jaweii/photext-mcp"] } } }
 ```
 
 ## Develop
