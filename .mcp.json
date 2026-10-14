@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "photext": {
+      "command": "npx",
+      "args": ["-y", "github:jaweii/photext-mcp"]
+    }
+  }
+}
